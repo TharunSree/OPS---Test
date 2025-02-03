@@ -3,7 +3,7 @@ user = {}
 while True:
   ch = 'y'
   while ch != 'n':
-    name = input("Enter Name: ")
+    name = input("Enter Name or DIE: ")
     age = int(input("Enter Age: "))
     user[name] = age
     print("Do you want to another use (y/n)?")
