@@ -6,7 +6,7 @@ while True:
     name = input("Enter Name or DIE: ")
     age = int(input("Enter Age: "))
     user[name] = age
-    print("Do you want to another use (y/n)?")
+    print("Do you want to add another user (y/n)?")
     ch = input(">")
   print("Viewing Users:")
   for key, value in user.items():
